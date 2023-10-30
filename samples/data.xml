@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<world>
+	<graspableBody>
+		<filename>models/objects/Affordance_pose/bottle/bottle.xml</filename>
+		<transform>
+			<fullTransform>(+1 +0 +0 +0)[+0 +0 +0]</fullTransform>
+		</transform>
+	</graspableBody>
+	<robot>
+		<filename>models/robots/ManoHand/ManoHand.xml</filename>
+		<dofValues>+0 +0.336588 +0.399647 +0 +0.544007 +0.377164 +0 +0.342275 +0.501948 -0.108498 +0.275122 +0.290949 +0 -0.872665 +0.0795779 +0 </dofValues>
+		<transform>
+			<fullTransform>(+0.747154 -0.625719 -0.087778 -0.206231)[+24.2139 -6.34088 -60.7976]</fullTransform>
+		</transform>
+	</robot>
+	<camera>
+		<position>+494.475 +44.0387 -35.389</position>
+		<orientation>+0.103563 -0.721683 +0.0367378 -0.683446</orientation>
+		<focalDistance>+497.424</focalDistance>
+	</camera>
+</world>
